@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="stylesheet" href="../JavaScript/index.js">
+    <title>Web Development Practice</title>
+</head>
+<body>
+    <h1 title="Heading">Main Heading</h1>
+    <h2 title="Sub-heading">Sub Heading</h2>
+    <h3 title="Title">Title</h3> <!--H1,H2,H3...H6 Tag Practice-->
+
+    <p>Lorem, ipsum dolor sit amet <b>consectetur</b> adipisicing.<strong>Fuga, rem atque.</strong> Voluptatem voluptate, <b><em>nihil ducimus</em></b> ea iste iure, ad labore incidunt atque <strong><i>temporibus</i></strong> sapiente quasi.
+    </p> <!--Paragraph, Bold, Strong, Italian and Emphasis Tags Pracice-->
+
+    <a href="#nissangtr"><b>Nisaan GTR</b></a> <!--Id global attribute practice-->
+
+    <p>
+        Scientific Formula of <b>Gulcose</b> is <b>C<sub>6</sub>H<sub>12</sub>O<sub>6</sub>.</b> 
+    </p> <!--Subscript Tag Practice-->
+
+    <p>
+        The <b>Pythagorean theorem</b> is often expressed as the following equation: <b>ab<sup>2</sup>(a<sup>2</sup> + b<sup>4</sup> + c<sup>2</sup>).</b>
+    </p> <!--Superscript Tag Practice-->
+
+    <p><del>This is a Delete Tag</del>. 
+
+        This is a Citation Tag <cite><a class="Buttons" title="Click Me" href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/cite">Cite Tag MDN</a></cite>.
+
+        Arijit Singh's Delhi Concert is scheduled for <time datetime="2023-03-18">March 18</time>. The Concert starts at <time datetime="07:30">07:30 Pm</time> and you'll be able to enjoy the concert for at least <time datetime="PT2H30M">2H30M</time>.\
+
+    </p> <!--Delete and their two attributes Citation & Datetime Tag Practice--> 
+
+    <p>This is <mark>Linear Equation</mark>: 2x - 5 = 13.</p> <!--Mark Tag Practice-->
+
+    <p>If you need to relax, press the <strong><u>S</u></strong
+    >tress reliever!
+    </p>
+
+    <button accesskey="s">Stress reliever</button> <!--Accesskey attribute Practice-->
+
+    <p class="cricket"><b>Indian Cricket World Cup Squad.</b> 
+        <abbr class="CWC" title="Cricket WorldCup">CWC</abbr>
+    </p> <!--Class Attribute and Abbreviation Tag Practice-->
+
+    <ul>
+        <li>Rohit Sharma (C)</li>
+        <li>Shubman Gill
+            <ul>
+                <li>Ishan Kishan</li>
+            </ul>
+        </li>
+        <li>Virat Kohli</li>
+        <li>Shreyas Iyer
+            <ul>
+                <li>Suryakumar Yadav</li>
+            </ul>
+        </li>
+        <li>K.L. Rahul (WK)</li>
+        <li>Hardik Pandeya</li>
+        <li>Ravendra Jadeja</li>
+        <li>Ravichandra Ashwin
+            <ul>
+                <li>Mohammed Shami</li>
+                <li>Shardul Thakur</li>
+            </ul>
+        </li>
+        <li>Kuldeep Yadav</li>
+        <li>Mohammed Siraj</li>
+        <li>Jasprit Bumrah</li>
+    </ul> <!-- Unordered List and List Item Tag Practice-->
+
+    <p>
+        <q>
+            <b>
+                Hate cannot drive out hate: Only love can do that.
+            </b>
+        </q>
+    </p> <!--Quote Tag Practice-->
+
+    <bdo dir="rtl" >
+        <del>Qwertyuiopasdfghjklzxcvbnm</del>
+    </bdo> <!--Bidirectional Text Override Tag Practice-->
+
+    <br />
+    <br />
+
+    <address>
+        You can contact author at
+        <a class="Buttons"  target="_blank" href="https://instagram.com">Squad Galaxy</a>.<br />
+        If you see any bugs, please
+        <a class="Buttons"  target="_blank" href="mailto:squadxgamerz@gmail.com">contact squadxgamerz</a>.<br />
+        You may also want to visit us:<br />
+        Squad Galaxy<br />
+        Buddhi Vihar, Avas Vikas Colony<br />
+        Moradabad, 244001<br />
+        India
+    </address> <!--Address Tag Practice-->
+
+    <br />
+
+    <a class="Buttons" title="Click Here" href="http://google.com" target="_blank" rel="noopener noreferrer"><Strong>Google</Strong>
+    </a> 
+    <br />
+    <a class="Buttons"  href="mailto:squadxgamerz@gmail.com"><Strong>SquadXGamerz</Strong></a>
+    <br />
+    <a class="Buttons"  href="tel:+91 9876543210"><Strong>+91 9876543210</Strong></a> <!--Anchor Tag and their Attributes Practice-->
+    <br />
+    <br />
+
+    <img src="images.pexels.com/photos/2907/car-mustang.jpg?auto=compress&cs=tinysrgb&w=1600&lazy=load" width="450px" alt="Image Address"> <!--Image Tag working with Image Address Practice-->
+    <br />
+    <br />
+    
+    <img src="./car-supra.jpeg" width="450px" alt="No Image"> <!--Image Tag Practice-->
+    <br />
+    <br />
+
+    <picture>
+        <source srcset="./car-mustang.jpg" media="(min-width: 650px)"/>
+        <source srcset="./car-supra.jpeg" media="(min-width: 350px)"/>
+        <img src="./car-mustang.jpg" width="450px" alt="No Image">
+    </picture> <!--Picture Tag and their Attributes Practice-->
+    <br />
+    <br />
+
+    <!--Image Map Generated-->
+    <img id="nissangtr" src="car-nissangtr.jpeg" usemap="#image-map">
+
+    <map name="image-map">
+        <area onclick="GTR()" target="" alt="" title="" href="" coords="307,858,1194,1340" shape="rect">
+        <area onclick="House()" target="" alt="" title="" href="" coords="525,785,253,520" shape="rect">
+    </map> <!--Map Tag and their Attribute Practice-->
+
+    <script>
+        function GTR(){
+            alert("You Clicked on Nissan GTR")
+        }
+        function House(){
+            alert("You Clicked on House")
+        }
+    </script> <!--Little Bit JavaScript Practice-->
+    <br />
+    <br />
+
+    <table>
+    <tr>
+        <th>Country Name</th>
+        <th>Country Code</th>
+        <th>Email</th>
+    </tr>
+    <tr>
+        <td>India</td>
+        <td>IN</td>
+        <td>india@google.com</td>
+    </tr>
+    <tr>
+        <td>United States of America</td>
+        <td>USA</td>
+        <td>usa@google.com</td>
+    </tr>
+    <tr>
+        <td>United Arab Emirates</td>
+        <td>UAE</td>
+        <td>uae@google.com</td>
+    </tr>
+    <tr>
+        <td>Japan</td>
+        <td>JP</td>
+        <td>jp@google.com</td>
+    </tr>
+    </table> <!--Table Tag and Little bit Css Practice-->
+
+    <h2>Contact Us</h2> <!--Form Heading-->
+
+    <form  class="cfrm" action="" method="get">
+        <label for="fname">First Name: </label>
+        <input type="text" placeholder="Type Here" name="" id="fname" />
+        <label for="lname">Last Name: </label>
+        <input type="text" placeholder="Type Here" name="" id="lname" /> <br />
+        <label for="email">E-mail: </label>
+        <input type="email" placeholder="Type Here" name="" id="email"> <br />
+        <label for="pass">Password:  </label>
+        <input type="password" placeholder="Type Here" name="" id="pass">  <br /> <br /> 
+        <button class="cbtn" type="submit">Submit</button>
+    </form> <!--Form Tag, Label Tag, Input Tag and their Attributes Practice-->
+    <br />
+
+    <video width="240" height="320" muted autoplay controls>
+        <source src="./Donut Animation0001-0300.mp4" />
+    </video>
+    <br /> <!--Video Tag, Source Tag and their Attributes Practice-->
+
+    <audio muted autoplay controls>
+        <source src="./Intro 1.mp3"/>
+    </audio> <!--Audio Tag. Source Tag and their Attributes Practice-->
+    
+    <!-- Html has been completed. -->
+    
+</body>
+</html>

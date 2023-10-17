@@ -1,0 +1,40 @@
+body {
+    background-color: #dfd6d6;
+    color: #000000;
+}
+
+.Buttons {
+    color: rgb(6, 137, 170);
+}
+
+.cricket {
+    color: #3887fd;
+}
+
+.CWC {
+    color: #000000;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+td, th {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+tr:nth-child(even) {
+    background-color: #aaaaaa;
+}
+
+.cfrm {
+    border: 1.5px solid black;
+    width:fit-content;
+}
+
+.cbtn {
+    border: 1px solid black;
+}
