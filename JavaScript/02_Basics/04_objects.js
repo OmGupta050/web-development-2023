@@ -9,10 +9,10 @@ tinderUser.isLoggedIn = false;
 
 const regularUser = {
     email: "some@gmail.com",
-    fullname: {
-        userfullname: {
-            firstname: "Om",
-            lastname: "Gupta",
+    fullName: {
+        userfullName: {
+            firstName: "Om",
+            lastName: "Gupta",
         }
     }
 }
@@ -50,4 +50,28 @@ users[1].email;
 // console.log(Object.values(tinderUser));
 // console.log(Object.entries(tinderUser));
 
-console.log(tinderUser.hasOwnProperty('isLoggedIn'));
+// console.log(tinderUser.hasOwnProperty('isLoggedIn'));
+
+const course = {
+    courseName: "Web Development",
+    price: 199,
+    courseInstructor: "Om Gupta"
+}
+
+// course.courseInstructor
+
+const {courseInstructor: instructor} = course;
+// console.log(courseInstructor);
+// console.log(instructor);
+
+// {
+//     "name": "Om",
+//     "coursename": "Web Development",
+//     "price": "free"
+// }
+
+[
+    {},
+    {},
+    {},
+]
